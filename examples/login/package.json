@@ -1,0 +1,10 @@
+{
+  "name": "passport-gitlab-examples-login",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "^3.21.0",
+    "ejs": ">= 0.0.0",
+    "passport": ">= 0.0.0",
+    "passport-gitlab": ">= 0.0.0"
+  }
+}

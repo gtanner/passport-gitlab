@@ -1,0 +1,31 @@
+{
+  "name": "passport-gitlab",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "GitLab OAuth2 authentication strategy for Passport.",
+  "keywords": ["passport", "gitlab", "auth", "authn", "authentication", "identity"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gtanner/passport-gitlab.git"
+  },
+  "bugs": {
+    "url": "http://github.com/gtanner/passport-gitlab/issues"
+  },
+  "author": {
+    "name": "Gord Tanner",
+    "email": "gtanner@gmail.com",
+    "url": "http://bithound.io"
+  },
+  "main": "./lib/passport-gitlab",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth2": "^1.1.2"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}
